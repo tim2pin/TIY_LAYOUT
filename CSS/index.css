@@ -1,0 +1,60 @@
+.MPLS-SL{
+  height:100%;
+  width: 100%;
+}
+.logo-holder {
+  width:85px;
+  height:85px;
+  position: absolute;
+  top:54%;
+  left:13%;
+}
+.TIY-logo {
+  height: 80px;
+  width: 80px;
+  border: 5px solid #FFF;
+  border-radius: 50%;
+}
+.body-container{
+  border: 1px dashed red;
+  width: 100%;
+  /*height:100%;*/
+  height: 800px; 
+}
+.body-1{
+  display: inline-block;
+  float: left;
+  width:33%;
+  height: 500px;
+  border: 1px solid burlywood;
+}
+.body-2{
+  display: inline-block;
+  float: left;
+  width: 33%;
+  height: 500px;
+  border: 1px solid green;
+}
+.body-3{
+  display: inline-block;
+  float: left;
+  width: 33%;
+  height: 500px;
+  border: 1px solid blue;
+}
+h3{
+  float: right;
+  width: 51%;
+  display: block;
+  text-align: left;
+  padding-top: 50px;
+  margin-right: 20px; 
+}
+.Col1-P {
+  font-size: 15px;
+  float: right;
+  width: 51%;
+  display: block;
+  text-align: left;
+  margin-right: 20px;
+}
