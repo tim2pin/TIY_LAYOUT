@@ -1,3 +1,6 @@
+body {
+  font-family:'Open Sans', sans-serif;
+}
 .MPLS-SL{
   height:100%;
   width: 100%;
@@ -6,8 +9,8 @@
   width:85px;
   height:85px;
   position: absolute;
-  top:54%;
-  left:13%;
+  top: 275px;
+  left:10%;
 }
 .TIY-logo {
   height: 80px;
@@ -15,36 +18,33 @@
   border: 5px solid #FFF;
   border-radius: 50%;
 }
-.body-container{
-  border: 1px dashed red;
-  width: 100%;
-  /*height:100%;*/
-  height: 800px; 
-}
+
 .body-1{
   display: inline-block;
   float: left;
-  width:33%;
+  width: 33%;
   height: 500px;
-  border: 1px solid burlywood;
+  
 }
 .body-2{
   display: inline-block;
   float: left;
-  width: 33%;
+  width: 38%;
   height: 500px;
-  border: 1px solid green;
+  
 }
 .body-3{
   display: inline-block;
   float: left;
-  width: 33%;
+  width: 28%;
   height: 500px;
-  border: 1px solid blue;
+  
 }
 h3{
+  position: absolute;
   float: right;
-  width: 51%;
+  width: 150px;
+  left: 110px;
   display: block;
   text-align: left;
   padding-top: 50px;
@@ -52,9 +52,85 @@ h3{
 }
 .Col1-P {
   font-size: 15px;
-  float: right;
-  width: 51%;
+  position: absolute;
+  left: 110px;
+  width: 150px;
   display: block;
   text-align: left;
+  
+  color: #C0C0C0;
+  border-bottom: 1px solid #C0C0C0;
+  margin: 120px 0px 0px 0px;
+  padding-bottom: 10px;
+}
+form {
+  position: absolute;
+  left: 110px;
+  margin-top: 210px;
+  color: #C0C0C0;
+}
+.search {
+  margin-top: 15px;
+  width: 150px;
+  color: #C0C0C0;
+}
+h1 {
+  float: left;
+  width: 90%;
+  display: block;
+  text-align: left;
+  padding-top: 40px;
   margin-right: 20px;
+  font-size: 3em;
+}
+.author {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.tiy-d1{
+  width: 90%;
+  height: 185px;
+}
+a {
+  text-decoration: none;
+}
+.social-media-box {
+  
+  position: absolute;
+  width: 260px;
+  height:60px;
+  top: 700px;
+  border:1px solid #C0C0C0;
+}
+.SM-t1 {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-bottom:1px solid #C0C0C0;
+}
+.social-media-img {
+  display: block;
+  float: left;
+  width: 25px;
+  height: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+.media-text {
+  display: block;
+  float: left;
+  padding-right: 5px;
+  font-size: 9px;
+  margin-top: 5px;
+}
+button {
+  display: block;
+  float: left;
+  background-color: #50B7E4;
+  color: #FFF;
+  border-radius: 10%;
+  border-color: #50B7E4;
+  width: 65px;
+  margin-top: 8px;
+  margin-left: 5px;
 }
