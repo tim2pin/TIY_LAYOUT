@@ -1,40 +1,44 @@
 body {
   font-family:'Open Sans', sans-serif;
+
 }
 .MPLS-SL{
   height:100%;
   width: 100%;
 }
 .logo-holder {
-  width:85px;
+  /*width:85px;
   height:85px;
   position: absolute;
   top: 275px;
-  left:10%;
+  left:10%;*/
+
 }
-.TIY-logo {
-  height: 80px;
-  width: 80px;
+#TIY-logo {
+  position: absolute;
   border: 5px solid #FFF;
   border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  top: 35%;
+  left: 10%;
 }
 
 .body-1{
-  display: inline-block;
+  display: inline-flex;
   float: left;
   width: 33%;
   height: 500px;
   
 }
 .body-2{
-  display: inline-block;
   float: left;
   width: 38%;
   height: 500px;
   
 }
 .body-3{
-  display: inline-block;
+  display: inline-flex;
   float: left;
   width: 28%;
   height: 500px;
@@ -68,6 +72,7 @@ form {
   left: 110px;
   margin-top: 225px;
   color: #C0C0C0;
+  
 }
 .search {
   margin-top: 15px;
@@ -77,19 +82,20 @@ form {
 h1 {
   float: left;
   width: 100%;
-  display: block;
+  display: inline-block;
   text-align: left;
   padding-top: 40px;
   margin-right: 20px;
   font-size: 3em;
 }
 .author {
-  display: inline-block;
-  margin-bottom: 15px;
+  display: block;
+  margin-bottom: 25px;
 }
-.tiy-d1{
+.tiy-d1 {
   width: 80%;
   height: 185px;
+  display: block;
 }
 a {
   text-decoration: none;
